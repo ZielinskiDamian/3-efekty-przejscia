@@ -1,0 +1,27 @@
+.box {
+	width: 150px;
+	height: 150px;
+	margin: auto;
+	margin-bottom: 10px;
+	transition: all 2s linear;
+}
+.one {
+	background-color: red;
+}
+.one:hover {
+	width: 300px;
+}
+.two {
+	background-color: blue;
+}
+.two:hover {
+	height: 300px;
+}
+
+.three {
+	background-color: green;
+}
+.three:hover {
+	height: 300px;
+	width: 300px;
+}
